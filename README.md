@@ -140,6 +140,6 @@ year = {2019}
 ## Contact
 The code of this repository was implemented by [Vassilis Choutas](vassilis.choutas@tuebingen.mpg.de).
 
-For questions about the code, please contact [smplx@tuebingen.mpg.de](smplx@tuebingen.mpg.de). 
+For questions, please contact [smplx@tuebingen.mpg.de](smplx@tuebingen.mpg.de). 
 
 For commercial licensing, please contact [ps-licensing@tue.mpg.de](ps-licensing@tue.mpg.de).
