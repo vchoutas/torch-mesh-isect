@@ -92,7 +92,7 @@ install torch-mesh-isect[all]
 
 ## Citation
 
-If you find this code useful in your research then please cite the following two works, for detecting and penalizing mesh intersections accordingly:
+If you find this code useful in your research please cite the relevant work(s) of the following list, for detecting and penalizing mesh intersections accordingly:
 
 ```
 @inproceedings{Karras:2012:MPC:2383795.2383801,
