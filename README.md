@@ -104,7 +104,7 @@ If you find this code useful in your research please cite the relevant work(s) o
     numpages = {5},
     url = {https://doi.org/10.2312/EGGH/HPG12/033-037}, 
     doi = {10.2312/EGGH/HPG12/033-037},
-    publisher = {Eurographics Association},
+    publisher = {Eurographics Association}
 }
 ```
 
