@@ -43,28 +43,29 @@ provide a conical distance field based loss for resolving the interpenetrations.
 
 Before installing anything please make sure to set the environment variable
 *$CUDA_SAMPLES_INC* to the path that contains the header `helper_math.h`.
-To install the model simply you can:
-1. To install from PyPi simply run:
-```Shell
-pip install torch-mesh-isect
-```
-2.  To install the module and the rendering dependencies run:
-```Shell
-pip
-install torch-mesh-isect[all]
-```
-3. Clone this repository and install it using the *setup.py* script:
+To install the module you can:
+
+1. Clone this repository and install it using the *setup.py* script:
 ```Shell
 git clone https://github.com/vchoutas/torch-mesh-isect
 python setup.py install
 ```
+2. Install from PyPi the pre-compiled version for 1.1.0 and CUDA 10.0 simply run:
+```Shell
+pip install torch-mesh-isect
+```
+
+3.  To install the module and the rendering dependencies run:
+```Shell
+pip
+install torch-mesh-isect[all]
+```
+
 
 ## Examples
 
 * [Collision Detection](./examples/detect_and_plot_collisions.py): Given an
   input mesh file, detect and plot all the collisions.
-* [Body model Collision resolution](./examples/smpl_untangle.py): Resolve self
-  penetrations for a body model
 * [Batch Collision resolution](./examples/batch_smpl_untangle.py): Same as the
   second example, except that a batch of examples is processed simultaneously
 
