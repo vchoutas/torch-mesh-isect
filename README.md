@@ -65,13 +65,25 @@ install torch-mesh-isect[all]
 ## Examples
 
 * [Collision Detection](./examples/detect_and_plot_collisions.py): Given an
-  input mesh file, detect and plot all the collisions.
-* [Batch Collision resolution](./examples/batch_smpl_untangle.py): Same as the
-  second example, except that a batch of examples is processed simultaneously
+  input mesh file, detect and plot all the collisions. Use:
+  ```Shell
+  python examples/detect_and_plot_collisions.py PATH_TO_MESH
+  ```
+* [Batch Collision resolution](./examples/batch_smpl_untangle.py):  Resolve self	
+  penetrations for a batch of body models. To run use:
+  ```Shell
+  python examples/batch_smpl_untangle.py --coll_loss_weight=$WEIGHT 
+  --param_fn PKL_FN1 PKL_FN2 ... PKL_FNN  
+  ```
+  where PKL_FN* are the filenames of the .pkl files that contain the parameters for each body model. 
 
 ## Dependencies
 
 1. [PyTorch](https://pytorch.org/)
+
+### Example dependencies
+
+1. [SMPL-X](https://github.com/MPI-IS/smplx)
 
 ### Optional Dependencies
 
