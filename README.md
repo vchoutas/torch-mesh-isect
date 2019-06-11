@@ -138,4 +138,6 @@ year = {2019}
 ```
 
 ## Contact
-For questions about the code, please contact [Vassilis Choutas](vassilis.choutas@tuebingen.mpg.de).
+For questions about the code, please contact [smplx@tuebingen.mpg.de](smplx@tuebingen.mpg.de). 
+
+For commercial licensing, please contact [ps-licensing@tue.mpg.de](ps-licensing@tue.mpg.de).
