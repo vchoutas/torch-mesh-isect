@@ -138,7 +138,7 @@ year = {2019}
 ```
 
 ## Contact
-The code was originally implemented by [Vassilis Choutas](vassilis.choutas@tuebingen.mpg.de).
+The code was implemented by [Vassilis Choutas](vassilis.choutas@tuebingen.mpg.de).
 
 For questions about the code, please contact [smplx@tuebingen.mpg.de](smplx@tuebingen.mpg.de). 
 
