@@ -122,16 +122,8 @@ If you find this code useful in your research please cite the relevant work(s) o
 }
 ```
 
-This repository was originally developed for the following work, you might be interested in having a look:
+This repository was originally developed for SMPL-X / SMPLify-X (CVPR 2019), you might be interested in having a look: [https://smpl-x.is.tue.mpg.de](https://smpl-x.is.tue.mpg.de).
 
-```
-@inproceedings{SMPL-X:2019,
-    title = {Expressive Body Capture: 3D Hands, Face, and Body from a Single Image},
-    author = {Pavlakos, Georgios and Choutas, Vasileios and Ghorbani, Nima and Bolkart, Timo and Osman, Ahmed A. A. and Tzionas, Dimitrios and Black, Michael J.},
-    booktitle = {Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)}, 
-    year = {2019}
-}
-```
 
 ## Contact
 The code of this repository was implemented by [Vassilis Choutas](vassilis.choutas@tuebingen.mpg.de).
