@@ -16,7 +16,7 @@ triangle mesh.
 
 Software Copyright License for **non-commercial scientific research purposes**.
 Please read carefully the [terms and
-conditions](https://github.com/vchoutas/smplx/blob/master/LICENSE) and any
+conditions](https://github.com/vchoutas/torch-mesh-isect/blob/master/LICENSE) and any
 accompanying documentation before you download and/or use the SMPL-X/SMPLify-X
 model, data and software, (the "Model & Software"), including 3D meshes, blend
 weights, blend shapes, textures, software, scripts, and animations. By
