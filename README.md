@@ -126,7 +126,7 @@ url = {https://doi.org/10.1007/s11263-016-0895-4},
 month_numeric = {6} }
 ```
 
-This repo was originally developed for the following work, you might be interested in having a look:
+This repository was originally developed for the following work, you might be interested in having a look:
 
 ```
 @inproceedings{SMPL-X:2019,
