@@ -96,44 +96,40 @@ If you find this code useful in your research please cite the relevant work(s) o
 
 ```
 @inproceedings{Karras:2012:MPC:2383795.2383801,
-author = {Karras, Tero},
-title = {Maximizing Parallelism in the Construction of BVHs, Octrees, and K-d Trees},
-booktitle = {Proceedings of the Fourth ACM SIGGRAPH / Eurographics Conference on High-Performance Graphics},
-series = {EGGH-HPG'12},
-year = {2012},
-isbn = {978-3-905674-41-5},
-location = {Paris, France},
-pages = {33--37},
-numpages = {5},
-url = {https://doi.org/10.2312/EGGH/HPG12/033-037}, 
-doi = {10.2312/EGGH/HPG12/033-037},
-acmid = {2383801},
-publisher = {Eurographics Association},
-address = {Goslar Germany, Germany}, 
+    author = {Karras, Tero},
+    title = {Maximizing Parallelism in the Construction of BVHs, Octrees, and K-d Trees},
+    booktitle = {Proceedings of the Fourth ACM SIGGRAPH / Eurographics Conference on High-Performance Graphics},
+    year = {2012},
+    pages = {33--37},
+    numpages = {5},
+    url = {https://doi.org/10.2312/EGGH/HPG12/033-037}, 
+    doi = {10.2312/EGGH/HPG12/033-037},
+    publisher = {Eurographics Association},
 }
 ```
 
 ```
 @article{Tzionas:IJCV:2016, title = {Capturing Hands in Action using Discriminative Salient Points and Physics Simulation},
-author = {Tzionas, Dimitrios and Ballan, Luca and Srikantha, Abhilash and Aponte, Pablo and Pollefeys, Marc and Gall, Juergen},
-journal = {International Journal of Computer Vision (IJCV)},
-volume = {118},
-number = {2},
-pages = {172--193},
-month = jun,
-year = {2016},
-url = {https://doi.org/10.1007/s11263-016-0895-4}, 
-month_numeric = {6} }
+    author = {Tzionas, Dimitrios and Ballan, Luca and Srikantha, Abhilash and Aponte, Pablo and Pollefeys, Marc and Gall, Juergen},
+    journal = {International Journal of Computer Vision (IJCV)},
+    volume = {118},
+    number = {2},
+    pages = {172--193},
+    month = jun,
+    year = {2016},
+    url = {https://doi.org/10.1007/s11263-016-0895-4}, 
+    month_numeric = {6} 
+}
 ```
 
 This repository was originally developed for the following work, you might be interested in having a look:
 
 ```
 @inproceedings{SMPL-X:2019,
-title = {Expressive Body Capture: 3D Hands, Face, and Body from a Single Image},
-author = {Pavlakos, Georgios and Choutas, Vasileios and Ghorbani, Nima and Bolkart, Timo and Osman, Ahmed A. A. and Tzionas, Dimitrios and Black, Michael J.},
-booktitle = {Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)}, 
-year = {2019}
+    title = {Expressive Body Capture: 3D Hands, Face, and Body from a Single Image},
+    author = {Pavlakos, Georgios and Choutas, Vasileios and Ghorbani, Nima and Bolkart, Timo and Osman, Ahmed A. A. and Tzionas, Dimitrios and Black, Michael J.},
+    booktitle = {Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)}, 
+    year = {2019}
 }
 ```
 
