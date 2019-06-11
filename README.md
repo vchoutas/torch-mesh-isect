@@ -44,25 +44,21 @@ Please note that in the current implementation, for batching one needs to provid
 
 Before installing anything please make sure to set the environment variable
 *$CUDA_SAMPLES_INC* to the path that contains the header `helper_math.h` (provided by NVidia SDK samples).
-To install the module you can:
+To install the module run the following commands:  
 
-1. Clone this repository and install it using the *setup.py* script:
+**1. Clone this repository**
 ```Shell
 git clone https://github.com/vchoutas/torch-mesh-isect
+```
+**2. Install the dependencies**
+```Shell
+pip install -r requirements.txt 
+```
+**3. Run the *setup.py*script**
+```Shell
 python setup.py install
 ```
-2. Install from PyPi the pre-compiled version for 1.1.0 and CUDA 10.0 simply run:
-```Shell
-pip install torch-mesh-isect
-```
-
-3.  To install the module and the rendering dependencies run:
-```Shell
-pip
-install torch-mesh-isect[all]
-```
-
-
+   
 ## Examples
 
 * [Collision Detection](./examples/detect_and_plot_collisions.py): Given an
