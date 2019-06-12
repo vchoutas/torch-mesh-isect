@@ -54,7 +54,7 @@ git clone https://github.com/vchoutas/torch-mesh-isect
 ```Shell
 pip install -r requirements.txt 
 ```
-**3. Run the *setup.py*script**
+**3. Run the *setup.py* script**
 ```Shell
 python setup.py install
 ```
