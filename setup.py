@@ -15,6 +15,7 @@
 #
 # Contact: ps-license@tuebingen.mpg.deimport io
 
+import io
 import os
 import os.path as osp
 
@@ -80,8 +81,14 @@ setup(name=NAME,
       url=URL,
       packages=find_packages(),
       ext_modules=[bvh_extension],
+      classifiers=[
+          "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+          "Environment :: Console",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7"],
       install_requires=[
-          'torch>=1.0.1.post2',
+          'torch>=1.0.1',
       ],
       extras_require={
           'render': render_reqs,
