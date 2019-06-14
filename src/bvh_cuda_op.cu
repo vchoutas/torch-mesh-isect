@@ -283,22 +283,6 @@ __device__ inline bool TriangleTriangleOverlap(const Triangle<T> &tri1,
 }
 
 template <typename T>
-__device__ inline bool
-TriangleTriangleOverlap(const Triangle<T> &tri1, const Triangle<T> &tri2,
-                        const vec3<T> &sep_axis, vec2<T> *interval) {
-  vec2<T> tri1_interval = isect_interval(sep_axis, tri1);
-  vec2<T> tri2_interval = isect_interval(sep_axis, tri2);
-
-  interval->x = max(tri1_interval.x, tri2_interval.x);
-  interval->y = min(tri1_interval.y, tri2_interval.y);
-  // In order for the triangles to overlap
-  return (tri1_interval.x <= tri2_interval.y) &&
-         (tri1_interval.y >= tri2_interval.x);
-}
-
-// TODO: Compare If-Else version for coplanar triangles vs extra computation
-// by checking all cases
-template <typename T>
 __device__ bool TriangleTriangleIsectSepAxis(const Triangle<T> &tri1,
                                              const Triangle<T> &tri2) {
   // Calculate the edges and the normal for the first triangle
@@ -416,9 +400,9 @@ __device__
 #endif
     bool
     checkOverlap(const AABB<T> &bbox1, const AABB<T> &bbox2) {
-  return (bbox1.min_t.x < bbox2.max_t.x) && (bbox1.max_t.x > bbox2.min_t.x) &&
-         (bbox1.min_t.y < bbox2.max_t.y) && (bbox1.max_t.y > bbox2.min_t.y) &&
-         (bbox1.min_t.z < bbox2.max_t.z) && (bbox1.max_t.z > bbox2.min_t.z);
+  return (bbox1.min_t.x <= bbox2.max_t.x) && (bbox1.max_t.x >= bbox2.min_t.x) &&
+         (bbox1.min_t.y <= bbox2.max_t.y) && (bbox1.max_t.y >= bbox2.min_t.y) &&
+         (bbox1.min_t.z <= bbox2.max_t.z) && (bbox1.max_t.z >= bbox2.min_t.z);
 }
 
 template <typename T>
