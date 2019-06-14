@@ -79,7 +79,7 @@ python setup.py install
 
 ### Example dependencies
 
-1. [SMPL-X](https://github.com/MPI-IS/smplx)
+1. [SMPL-X](https://github.com/vchoutas/smplx)
 
 ### Optional Dependencies
 
