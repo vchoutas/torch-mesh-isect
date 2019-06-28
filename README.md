@@ -58,7 +58,7 @@ pip install -r requirements.txt
 ```Shell
 python setup.py install
 ```
-   
+
 ## Examples
 
 * [Collision Detection](./examples/detect_and_plot_collisions.py): Given an
@@ -85,6 +85,8 @@ python setup.py install
 
 1. [Trimesh](https://trimsh.org) for loading triangular meshes
 2. [Pyrender](https://pyrender.readthedocs.io) for visualization
+
+The code has been tested with Python 3.6, CUDA 10, CuDNN 7.3 and PyTorch 1.0.
 
 ## Citation
 
