@@ -72,6 +72,7 @@ python setup.py install
   --param_fn PKL_FN1 PKL_FN2 ... PKL_FNN  
   ```
   where PKL_FN* are the filenames of the .pkl files that [can be downloaded here](https://owncloud.tuebingen.mpg.de/index.php/s/bEKMdqf5WbN4MnH) and contain the parameters for each body model. 
+  The file for the part_segm_fn argument for SMPL can be downloaded [here](https://owncloud.tuebingen.mpg.de/index.php/s/jHdgwkREzS43rjN).
 
 ## Dependencies
 
