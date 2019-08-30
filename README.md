@@ -74,9 +74,9 @@ python setup.py install
   ```
   where PKL_FN* are the filenames of the .pkl files that [can be downloaded here](https://owncloud.tuebingen.mpg.de/index.php/s/bEKMdqf5WbN4MnH) and contain the parameters for each body model. 
   
-  The file for the part_segm_fn argument for SMPL can be downloaded [here](https://owncloud.tuebingen.mpg.de/index.php/s/jHdgwkREzS43rjN).
-  
-  To download the SMPL body model please see the directions for [downloding](https://github.com/vchoutas/smplx/blob/master/README.md#downloading-the-model) and for specific [placing in folder structure and renaming](https://github.com/vchoutas/smplx/blob/master/README.md#model-loading).
+  For `batch_smpl_untangle`:  
+  - To download the SMPL body model  please see the directions for [downloding](https://github.com/vchoutas/smplx/blob/master/README.md#downloading-the-model) and for specific [placing in folder structure and renaming](https://github.com/vchoutas/smplx/blob/master/README.md#model-loading).
+  - The file for the part_segm_fn argument for SMPL can be downloaded [here](https://owncloud.tuebingen.mpg.de/index.php/s/jHdgwkREzS43rjN).
 
 ## Dependencies
 
