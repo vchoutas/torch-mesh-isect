@@ -72,7 +72,7 @@ python setup.py install
   python examples/batch_smpl_untangle.py --coll_loss_weight=$WEIGHT 
   --param_fn PKL_FN1 PKL_FN2 ... PKL_FNN  
   ```
-  where PKL_FN* are the filenames of the .pkl files that [can be downloaded here](https://owncloud.tuebingen.mpg.de/index.php/s/bEKMdqf5WbN4MnH) and contain the parameters for each body model. 
+  where `PKL_FN*` are the filenames of the .pkl files that [can be downloaded here](https://owncloud.tuebingen.mpg.de/index.php/s/bEKMdqf5WbN4MnH) and contain the parameters for each body model. 
   
   For `batch_smpl_untangle`:  
   - To download the SMPL body model  please see the directions for [downloding](https://github.com/vchoutas/smplx/blob/master/README.md#downloading-the-model) and for specific [placing in folder structure and renaming](https://github.com/vchoutas/smplx/blob/master/README.md#model-loading).
@@ -91,7 +91,7 @@ python setup.py install
 1. [Trimesh](https://trimsh.org) for loading triangular meshes
 2. [Pyrender](https://pyrender.readthedocs.io) for visualization
 
-The code has been tested with Python 3.6, CUDA 10, CuDNN 7.3 and PyTorch 1.0.
+The code has been tested with Python 3.6, CUDA 10.0, CuDNN 7.3 and PyTorch 1.0.
 
 ## Citation
 
