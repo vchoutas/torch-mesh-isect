@@ -49,6 +49,7 @@ To install the module run the following commands:
 **1. Clone this repository**
 ```Shell
 git clone https://github.com/vchoutas/torch-mesh-isect
+cd torch-mesh-isect
 ```
 **2. Install the dependencies**
 ```Shell
