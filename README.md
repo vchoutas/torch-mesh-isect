@@ -77,7 +77,7 @@ python setup.py install
   
   For `batch_smpl_untangle`:  
   - To download the SMPL body model  please see the directions for [downloding](https://github.com/vchoutas/smplx/blob/master/README.md#downloading-the-model) and for specific [placing in folder structure and renaming](https://github.com/vchoutas/smplx/blob/master/README.md#model-loading).
-  - The file for the part_segm_fn argument for SMPL can be downloaded [here](https://owncloud.tuebingen.mpg.de/index.php/s/jHdgwkREzS43rjN).
+  - The file for the `part_segm_fn` argument for SMPL can be downloaded [here](https://owncloud.tuebingen.mpg.de/index.php/s/jHdgwkREzS43rjN).
 
 ## Dependencies
 
