@@ -69,6 +69,7 @@ python setup.py install
   ```
 * [Batch Collision resolution](./examples/batch_smpl_untangle.py):  Resolve self-penetrations for a batch of body models. To run use:
   ```Shell
+  WEIGHT=0.001
   python examples/batch_smpl_untangle.py --coll_loss_weight=$WEIGHT ----model_folder=$MODEL_PARENT_FOLDER 
   --param_fn PKL_FN1 PKL_FN2 ... PKL_FNN  
   ```
