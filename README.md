@@ -43,7 +43,8 @@ Please note that in the current implementation, for batching one needs to provid
 ## Installation
 
 Before installing anything please make sure to set the environment variable
-*$CUDA_SAMPLES_INC* to the path that contains the header `helper_math.h` (provided by NVidia SDK samples).
+*$CUDA_SAMPLES_INC* to the path that contains the header `helper_math.h`, which
+can be found in the repo [CUDA Samples repository](https://github.com/NVIDIA/cuda-samples).
 To install the module run the following commands:  
 
 **1. Clone this repository**
