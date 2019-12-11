@@ -254,14 +254,14 @@ class DistanceFieldPenetrationLoss(nn.Module):
 
         recv_triangles = triangles[batch_idxs, receiver_faces]
         intr_triangles = triangles[batch_idxs, intruder_faces]
-        with torch.no_grad():
-            recv_normals = normals[batch_idxs, receiver_faces]
-            recv_circumradius = circumradius[batch_idxs, receiver_faces]
-            recv_circumcenter = circumcenter[batch_idxs, receiver_faces]
+        
+        recv_normals = normals[batch_idxs, receiver_faces]
+        recv_circumradius = circumradius[batch_idxs, receiver_faces]
+        recv_circumcenter = circumcenter[batch_idxs, receiver_faces]
 
-            intr_normals = normals[batch_idxs, intruder_faces]
-            intr_circumradius = circumradius[batch_idxs, intruder_faces]
-            intr_circumcenter = circumcenter[batch_idxs, intruder_faces]
+        intr_normals = normals[batch_idxs, intruder_faces]
+        intr_circumradius = circumradius[batch_idxs, intruder_faces]
+        intr_circumcenter = circumcenter[batch_idxs, intruder_faces]
 
         # Compute the distance field for the intruding triangles
         # B x NUM_COLLISIONS x 3
