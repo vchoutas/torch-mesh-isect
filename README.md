@@ -136,3 +136,8 @@ The code of this repository was implemented by [Vassilis Choutas](vassilis.chout
 For questions, please contact [smplx@tue.mpg.de](smplx@tue.mpg.de). 
 
 For commercial licensing (and all related questions for business applications), please contact [ps-licensing@tue.mpg.de](ps-licensing@tue.mpg.de). Please note that the method for this component has been [patented by NVidia](https://patents.google.com/patent/US9396512B2/en) and a license needs to be obtained also by them.
+
+## Acknowledgement
+* [error: ‘AT_CHECK’ was not declared in this scope](https://github.com/open-mmlab/OpenPCDet/issues/284#issuecomment-874171209): Fix for latest Pytorch versions
+
+* [error: Missing helper_math.h](https://github.com/OpenKinect/libfreenect2/issues/777#issuecomment-997941415): Only second and third step.
